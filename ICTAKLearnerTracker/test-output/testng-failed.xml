@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.ctaklearnertracker.pages.TestClass">
+        <methods>
+          <include name="TC_LR_003"/>
+          <include name="LG_PO_02"/>
+          <include name="LG_PO_03"/>
+          <include name="TC_PS_01"/>
+          <include name="LG_PO_01"/>
+          <include name="LG_TR_01"/>
+          <include name="LO_PO_01"/>
+          <include name="LG_TR_02"/>
+          <include name="LG_TR_04"/>
+          <include name="TC_CSV_01"/>
+          <include name="LG_TR_03"/>
+          <include name="LO_TH_01"/>
+          <include name="TC_DE_01"/>
+          <include name="TC_LR_006"/>
+          <include name="LG_PO_04"/>
+          <include name="LG_PO_05"/>
+          <include name="TC_LR_005"/>
+          <include name="TC_ED_01"/>
+          <include name="afterTest"/>
+          <include name="TC_LR_002"/>
+          <include name="TC_LR_007"/>
+          <include name="LG_TR_05"/>
+          <include name="configure"/>
+          <include name="TC_LR_004"/>
+          <include name="TC_LR_001"/>
+        </methods>
+      </class> <!-- org.ctaklearnertracker.pages.TestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
